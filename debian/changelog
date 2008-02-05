@@ -1,0 +1,91 @@
+libmatchbox (1.9-1.slind1) unstable; urgency=low
+
+  * Using cdbs-slind
+
+ -- Sergey Lapin <slapin@slind.org>  Tue, 05 Feb 2008 18:21:50 +0300
+
+libmatchbox (1.9-1.slind0) unstable; urgency=low
+
+  * Slind fork
+
+ -- Sergey Lapin <slapin@slind.org>  Fri, 07 Dec 2007 20:51:24 +0300
+
+libmatchbox (1.9-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Moray Allan <moray@debian.org>  Sun, 15 Oct 2006 16:02:14 +0100
+
+libmatchbox (1.8-2) unstable; urgency=low
+
+  * Fix -dev package Depends for X11R7.
+
+ -- Moray Allan <moray@debian.org>  Sat, 22 Apr 2006 16:50:32 +0100
+
+libmatchbox (1.8-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Moray Allan <moray@debian.org>  Sat, 11 Mar 2006 23:31:45 +0000
+
+libmatchbox (1.7-4) unstable; urgency=low
+
+  * Update libxft-dev Build-Depends to remove reference to libXft.la in
+    libmb.la.
+
+ -- Moray Allan <moray@debian.org>  Sun, 19 Feb 2006 18:04:21 +0000
+
+libmatchbox (1.7-3) unstable; urgency=low
+
+  * Update autotools files.
+  * Use Libs.private in .pc file.
+
+ -- Moray Allan <moray@debian.org>  Sun, 15 Jan 2006 00:25:58 +0000
+
+libmatchbox (1.7-2) unstable; urgency=high
+
+  * Fix shlibs.
+
+ -- Moray Allan <moray@debian.org>  Sun,  1 May 2005 16:11:24 +0100
+
+libmatchbox (1.7-1) unstable; urgency=high
+
+  * New upstream release.
+  * Update copyright file to reflect LGPL licensing.
+
+ -- Moray Allan <moray@debian.org>  Sat, 30 Apr 2005 14:10:31 +0100
+
+libmatchbox (1.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Moray Allan <moray@debian.org>  Mon, 28 Mar 2005 20:11:32 +0100
+
+libmatchbox (1.5-2) unstable; urgency=high
+
+  * Include .la file in -dev package.
+  * Add shlibs file.
+  * Update watch file.
+
+ -- Moray Allan <moray@debian.org>  Mon, 10 Jan 2005 02:24:54 +0000
+
+libmatchbox (1.5-1) unstable; urgency=high
+
+  * New upstream release.
+  * Disable Pango to reduce memory use, at upstream maintainer's suggestion.
+  * Patch to avoid segfault when font can't be loaded.
+
+ -- Moray Allan <moray@debian.org>  Fri,  7 Jan 2005 16:13:32 +0000
+
+libmatchbox (1.4-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Moray Allan <moray@debian.org>  Sat, 27 Nov 2004 18:52:41 +0000
+
+libmatchbox (1.2-1) unstable; urgency=low
+
+  * Split out from monolithic matchbox package.
+  * New maintainer for Matchbox packages.
+
+ -- Moray Allan <moray@debian.org>  Fri, 16 Jul 2004 02:17:39 +0100
