@@ -143,6 +143,8 @@ if test x$enable_pango != xno; then
   PKG_CHECK_MODULES(PANGO, pango pangoxft, [have_pango="yes"], [have_pango="no"])
   if test x$have_pango=xyes; then
     AC_DEFINE(USE_PANGO, [1], [Use Pango])
+    PANGO_LIBS=`$PKG_CONFIG --libs pango`
+    PANGO_CFLAGS=`$PKG_CONFIG --cflags pango`
     SUPPORTS_PANGO=1
     PANGO_REQUIRED="pango pangoxft"
   else
