@@ -1,9 +1,9 @@
 Source: libmatchbox
 Section: gui
 Priority: optional
-Maintainer: Sergey Lapin <slapin@slind.org>
-Build-Depends: cdbs (>= 0.4.21), debhelper (>= 4.1.0), pkg-config (>= 0.18), libx11-dev, x-dev, libxext-dev, libxt-dev, libglib2.0-dev, libpng12-dev, libjpeg62-dev, doxygen, libxft-dev (>= 2.1.8.2)
-XCS-Cross-Build-Depends: libx11-dev, x-dev, libxext-dev, libxt-dev, libglib2.0-dev, libpng12-dev, libjpeg62-dev, libxft-dev (>= 2.1.8.2)
+Maintainer: Yauhen Kharuzhy <jekhor@gmail.com>
+Build-Depends: cdbs (>= 0.4.21), debhelper (>= 4.1.0), pkg-config (>= 0.18), libx11-dev, x11proto-core-dev, libxext-dev, libxt-dev, libglib2.0-dev, libpng12-dev, libjpeg62-dev, doxygen, libxft-dev (>= 2.1.8.2), libpango-dev
+XCS-Cross-Build-Depends: libx11-dev, libxext-dev, libxt-dev, libglib2.0-dev, libpng12-dev, libjpeg62-dev, libxft-dev (>= 2.1.8.2), x11proto-core-dev, libpango1.0-dev
 XCS-Cross-Host-Build-Depends: cdbs (>= 0.4.21), debhelper (>= 4.1.0), pkg-config (>= 0.18)
 Standards-Version: 3.7.2
 

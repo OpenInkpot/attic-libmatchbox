@@ -4,8 +4,7 @@ include /usr/share/cdbs/1/class/autotools.mk
 
 DEB_DH_INSTALL_ARGS = --list-missing
 
-DEB_CONFIGURE_EXTRA_FLAGS = --enable-jpeg --enable-png --disable-doxygen-docs
-# --enable-pango
+DEB_CONFIGURE_EXTRA_FLAGS = --enable-jpeg --enable-png --disable-doxygen-docs --enable-pango
 # --enable-xsettings
 
 clean::
